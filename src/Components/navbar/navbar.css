@@ -52,7 +52,7 @@
 }
 .gpt3__navbar-menu {
   margin-left: 1rem;
-  display: none;
+  display: block;
   position: relative;
 }
 .gpt3__navbar-menu svg {
@@ -86,5 +86,19 @@
   }
   .gpt3__navbar-menu {
     display: flex;
+  }
+}
+@media screen and (max-with: 700px) {
+  .gpt3__navbar {
+    padding: 2rem 4rem;
+  }
+  .gpt3__navbar-sign {
+    display: none;
+  }
+  .gpt3__navbar-menu-container {
+    top: 20px;
+  }
+  .gpt3__navbar-menu-container-links-sign {
+    display: block;
   }
 }
