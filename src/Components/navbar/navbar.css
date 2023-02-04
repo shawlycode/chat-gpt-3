@@ -1,4 +1,4 @@
-.gp3__navbar {
+.gpt3__navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +22,7 @@
   flex-direction: row;
 }
 .gpt3__navbar-sign {
+  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
@@ -37,4 +38,53 @@
 
   margin: 0 1rem;
   cursor: pointer;
+}
+.gpt3__navbar-sign button {
+  background-color: orangered;
+  padding: 0.8rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  cursor: pointer;
+}
+.gpt3__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+.gpt3__navbar-menu svg {
+  cursor: pointer;
+}
+.gpt3__navbar-menu-container {
+  display: flex;
+  justify-self: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.gpt3__navbar-menu-container p {
+  margin: 1rem 0;
+}
+.gpt3__navbar-menu-container-links-sign {
+  display: none;
+}
+@media screen and (max-width: 1050px) {
+  .gpt3__navbar-links-container {
+    display: none;
+  }
+  .gpt3__navbar-menu {
+    display: flex;
+  }
 }
