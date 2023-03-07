@@ -1,0 +1,15 @@
+.line-bar {
+  background-color: orangered;
+  width: 100px;
+  height: 8px;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+.feature-text p {
+  font-size: 17px;
+  font-family: var(--font-family);
+  justify-content: center;
+}
+.feature-container {
+  margin: 0 1rem;
+}

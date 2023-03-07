@@ -1,0 +1,39 @@
+.whatgpt3-container {
+  padding: 1rem 6rem;
+}
+
+.whatgpt3-header-title {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 0;
+}
+.whatgpt3-title h1 {
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 45px;
+}
+.whatgpt3-title p {
+  text-align: end;
+  font-size: 19px;
+  font-family: var(--font-family);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* margin-top: -10px; */
+}
+.whatgpt3-chatbots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatgpt-bots-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.whatgpt-bots-title p {
+  padding-top: 1rem;
+}
